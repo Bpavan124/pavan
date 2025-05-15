@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+
+   
+
+}
+.main_box{
+    background:url(photo.jpg);
+    height:100vh;
+    background-size: cover;
+    
+
+}
+.btn_one{
+    color:white;
+    font-size: 30px;
+    font-weight: 500px;
+    line-height: 60px;
+    position: absolute;
+    opacity: 0.9;
+
+
+}
+
+.sidebar_menu{
+    position: fixed;
+  left:-300px;
+   height:100vh;
+   width: 250px;
+   background-color:rgba(255, 255, 255, 0.11);
+   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.177);
+   transition: 1s linear;
+
+
+
+
+}
+.sidebar_menu .logo{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+
+    
+}
+
+.sidebar_menu .logo  a {
+    color:white;
+    text-decoration: none;
+    position:absolute;
+    left:65px;
+    font-size: 30px;
+    font-weight: 50px;
+    line-height: 60px;
+    box-shadow: 0 0 1 rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+
+
+}
+.btn_two{
+    color:grey;
+    font-size:30px;
+    position: absolute;
+    left:215px;
+    top:15px;
+   opacity: 1:
+}
+#check{
+    display: none;
+    
+}
+.sidebar_menu .menu {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    
+    
+    
+}
+.sidebar_menu .menu li {
+    
+    color: white;
+    margin: 10px; 
+    padding:5px;
+    font-size:25px;
+    box-shadow: 0 0 1 rgba(255, 255, 255, 0.5);
+}
+.sidebar_menu .menu  a{
+    color:white;
+    text-decoration: none;
+    margin:25px;
+    padding: 10px;
+    box-shadow: 0 0 1 rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+    
+
+
+}
+
+.sidebar_menu .social_media  {
+    position: absolute;
+   left:15%;
+   bottom:10px;
+}
+.sidebar_menu .social_media i {
+    color:white;
+    font-size: 20px;
+    margin:5px;
+    padding:5px;
+
+} 
+
+.sidebar_menu .social_media i:hover {
+    color:white;
+    transition: color 1s ease;
+    font-size: 30px;
+}
+.sidebar_menu .menu li:hover{
+    
+    font-size: 25px;
+    border:2px solid grey;
+    box-shadow: 1 1 1 rgba(255, 255, 255, 0);
+
+}
+.btn_one :hover{
+    font-size:40px;
+    transition-duration: 3s;
+  
+    transition: color 1s ease;
+    
+
+
+}
+.sidebar_menu .btn_two:hover{
+    color:white;
+    font-size: 40px;
+    transition: color 1s ease;
+}
+#check:checked ~ .sidebar_menu {
+    left:0;
+}
+#check:checked ~ .btn_one {
+    opacity: 0;
+
+}
+.sidebar_menu:hover{
+    transform: 2s linear;
+
+}
+
